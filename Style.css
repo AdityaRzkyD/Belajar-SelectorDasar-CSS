@@ -1,0 +1,56 @@
+/*type selector*/
+span {
+    color: aqua;
+}
+
+
+/*class selector*/
+.blue {
+    color: blue;
+}
+
+span.red {
+
+}
+
+/*id selector*/
+#div1 {
+    
+}
+
+/*attribute selector*/
+a[href] {
+}
+
+a[href='instagram'] {
+    
+}
+
+a[href~='google'] {
+    
+}
+
+a[href^='@'] {
+    
+}
+
+a[href$='.com'] {
+
+}
+
+a[href*='example'] {
+
+}
+
+/*universal selector*/
+* {
+
+}
+
+*[href$='com'] {
+    
+}
+
+*.blue {
+    color: purple;
+}
